@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-inner">
+          <div class="header-brand">CodeWave</div>
+          <nav class="header-nav">
+            <a class="header-nav-link active" href="/index.html">Главная</a>
+            <a class="header-nav-link active" href="#service">Сервисы</a>
+            <a class="header-nav-link active" href="#">О компании</a>
+            <a class="header-nav-link active" href="#">Связаться</a>
+          </nav>
+          <a class="order righted" href="#">Заявка</a>
+        </div>
+      </header>
+      <div class="main-order">
+        <div class="main-order-form">
+          <div>
+            <h1>Ваши контакты</h1>
+          </div>
+          <div>
+            <div class="input-inline">
+                    <input
+                      type="text"
+                      name="name"
+                      autocomplete="off"
+                      placeholder="Имя"
+                    />
+
+                    <input
+                      type="phone"
+                      name="phone"
+                      autocomplete="off"
+                      placeholder="+7"
+                    />
+
+            </div>
+            <div class="input-email order-section">
+              <input type="email" name="email" placeholder="Почта" autocomplete="off" />
+            </div>
+          </div>
+          <div>
+            <h1>О проекте</h1>
+            <textarea
+              class="discription"
+              name="discription"
+              id="discription"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div>
+            <select class="select" name="" id="">
+              <option label="От куда узнали про CodeWave" hidden></option>
+              <option value="Реклама" label="Реклама"></option>
+              <option value="Поиск" label="Поиск"></option>
+              <option value="Рейтинг" label="Рейтинг"></option>
+              <option value="СМИ" label="СМИ"></option>
+              <option value="Соцсети" label="Соцсети"></option>
+              <option value="Блог" label="Блог"></option>
+              <option value="Рекомендация" label="Рекомендация"></option>
+              <option value="Другое" label="Другое"></option>
+            </select>
+          </div>
+          <div class="btn-inner">
+              <button class="btn-order">
+                Отправить
+              </button>
+              <div class="text">
+                Нажав на кнопку, соглашаюсь на обработку персональных данных
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
